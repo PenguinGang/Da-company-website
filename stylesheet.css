@@ -1,0 +1,75 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: "Monsieur La Doulaise", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul {
+    padding: 0%;
+    margin: 0%;
+}
+
+li {
+    padding: 16px;
+    border-bottom: 1px solid yellow
+}
+
+li:hover {
+    background-color: cyan;
+}
+
+.navlinks {
+    background-color: orange;
+    color: green;
+    text-align: center;
+    font-size: 1.2rem;
+
+}
+
+.imagebanner {
+    background-image: url("Photos/leafoverocean.png");
+    padding: 50px 0;
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+    color: pink;
+    background-color: indigo;
+}
+
+.introduction {
+    text-align: center;
+    color: orange;
+    font-size: 1.5rem;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.our_stuff {
+    text-align: center;
+    margin: 32px;
+}
+
+@media screen and (min-width: 700px) {
+    ul {
+        text-align: right;
+    }
+
+    li {
+        display: inline-block;
+        border-bottom: 0px;
+        border-left: 1px solid black;
+    }
+
+    .game {
+        width: 33%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
